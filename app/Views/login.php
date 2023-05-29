@@ -34,11 +34,11 @@
                 <form action="<?= base_url('signin'); ?>" method="post">
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input required type="email" name="email" id="email" class="form-control" placeholder="">
+                        <input required autocomplete="off" type="email" name="email" id="email" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input required type="password" name="password" id="password" class="form-control" placeholder="">
+                        <input required autocomplete="off" type="password" name="password" id="password" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary btn-block">Submit</button>
