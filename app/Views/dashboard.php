@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="<?= base_url('/public/assets/css/bootstrap.min.css'); ?>">
+  
+    <link rel="shortcut icon" type="image/jpg" href="<?= base_url('/public/assets/img/koffie.jpg'); ?>"/>
 
     <title>KoffieSoft | Dashboard</title>
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><h3>KoffieSoft</h3></a>
+        <a class="navbar-brand" href="#"><img class="img-thumbnail" src="<?= base_url('/public/assets/img/koffie.jpg'); ?>" alt="koffiesoft" width="70" height="70"></a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
