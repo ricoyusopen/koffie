@@ -16,29 +16,29 @@
                 <h3 class="text-center">Registration Form!</h3><br>
                 <form action="<?= base_url('registration'); ?>" method="post">
                    <div class="form-row">
-                        <div class="form-group col-md-8 offset-1">
+                        <div class="form-group col-md-8 offset-2">
                             <label for="name">Name</label>
                             <input type="text" autocomplete="off" required name="name" id="name" class="form-control" placeholder="">
                         </div>
-                        <div class="form-group col-md-8 offset-1">
+                        <div class="form-group col-md-8 offset-2">
                             <label for="email">Email</label>
                             <input type="email" autocomplete="off" required name="email" id="email" class="form-control" placeholder="">
                         </div>
-                        <div class="form-group col-md-8 offset-1">
+                        <div class="form-group col-md-8 offset-2">
                             <label for="password">Password</label>
                             <input type="password" autocomplete="off"  required name="password" id="password" class="form-control" placeholder="">
                         </div>
-                        <div class="form-group col-md-8 offset-1">
+                        <div class="form-group col-md-8 offset-2">
                             <label for="akses">Access</label>
                             <select class="form-control" name="akses" id="akses">
                                 <option value="1">Admin</option>
                                 <option value="2">User</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-8 offset-1">
+                        <div class="form-group col-md-8 offset-2">
                             <button type="submit" class="btn btn-primary btn-block">Submit</button>
                         </div>
-                        <div class="form-group col-md-8 offset-1">                        
+                        <div class="form-group col-md-8 offset-2">                        
                             <label for="" class="text-center"><a href="<?= site_url('/');?>">Sign In here</a></label>
                         </div>
                    </div> 
