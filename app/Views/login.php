@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="<?= base_url('/public/assets/css/bootstrap.min.css'); ?>">
-
+    <link rel="shortcut icon" type="image/jpg" href="<?= base_url('/public/assets/img/koffie.jpg'); ?>"/>
     <title>KoffieSoft | Login</title>
   </head>
 
